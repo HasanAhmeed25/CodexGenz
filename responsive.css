@@ -1,0 +1,256 @@
+/*=========================================
+  CodexGenz Responsive CSS
+  Part 2
+==========================================*/
+
+/* ===========================
+   Mobile Devices
+=========================== */
+
+@media (max-width:768px){
+
+    section{
+        padding:80px 6%;
+    }
+
+    .navbar{
+        height:80px;
+    }
+
+    .logo{
+        font-size:28px;
+    }
+
+    .hero{
+        min-height:auto;
+        gap:50px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:22px;
+    }
+
+    .hero-description{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .primary-btn,
+    .secondary-btn{
+        width:100%;
+        max-width:320px;
+        text-align:center;
+    }
+
+    .hero-stats{
+        flex-direction:column;
+        gap:25px;
+        text-align:center;
+    }
+
+    .floating-card{
+        width:100%;
+        padding:30px;
+    }
+
+    .floating-card pre{
+        font-size:15px;
+    }
+
+    .circle{
+        display:none;
+    }
+
+    .features{
+        grid-template-columns:1fr;
+    }
+
+    .services-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .learning-grid{
+        grid-template-columns:1fr;
+    }
+
+    .process{
+        grid-template-columns:1fr;
+    }
+
+    .testimonials{
+        grid-template-columns:1fr;
+    }
+
+    .pricing{
+        grid-template-columns:1fr;
+    }
+
+    .contact{
+        grid-template-columns:1fr;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .social-links{
+        justify-content:center;
+    }
+
+    .newsletter{
+        padding:45px 25px;
+    }
+
+    .newsletter h2{
+        font-size:32px;
+    }
+
+    .newsletter input{
+        width:100%;
+    }
+
+    .newsletter button{
+        width:100%;
+    }
+
+}
+
+/* ===========================
+   Small Mobile
+=========================== */
+
+@media (max-width:576px){
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero h2{
+        font-size:18px;
+    }
+
+    .section-title h2{
+        font-size:32px;
+    }
+
+    .service-card,
+    .course-card,
+    .price-card,
+    .testimonial-card,
+    .faq-item,
+    .contact-form,
+    .about-card{
+
+        padding:25px;
+
+    }
+
+    .contact-box{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .footer-logo{
+        font-size:28px;
+    }
+
+    #backToTop{
+
+        right:20px;
+        bottom:20px;
+
+        width:50px;
+        height:50px;
+
+    }
+
+}
+
+/* ===========================
+   Extra Small Devices
+=========================== */
+
+@media (max-width:400px){
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    .hero-description{
+        font-size:15px;
+    }
+
+    .btn,
+    .primary-btn,
+    .secondary-btn{
+
+        padding:14px 22px;
+        font-size:15px;
+
+    }
+
+    .navbar{
+
+        width:95%;
+
+    }
+
+    .logo{
+
+        font-size:24px;
+
+    }
+
+    .service-icon{
+
+        width:65px;
+        height:65px;
+
+        font-size:28px;
+
+    }
+
+    .process-number{
+
+        width:55px;
+        height:55px;
+
+        font-size:18px;
+
+    }
+
+}
+
+/* ===========================
+   Landscape Mobile
+=========================== */
+
+@media (max-height:500px){
+
+    .hero{
+
+        min-height:auto;
+
+        padding-top:120px;
+
+    }
+
+}
